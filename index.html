@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Real Estate Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Real Estate Hub</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Buy</a>
+        <a href="#">Sell</a>
+        <a href="#">Rent</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-box" placeholder="Search for properties...">
+        <button onclick="searchProperties()" class="search-btn">Search</button>
+    </div>
+    <div class="property-listing" id="propertyListing">
+        <!-- Property Listing Cards go here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
